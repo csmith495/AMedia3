@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         playerView.player = player
 
+        //set up video item in val below
         val mediaItem = MediaItem.Builder()
             .setUri("https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4")
             .setMimeType(MimeTypes.APPLICATION_MP4)
